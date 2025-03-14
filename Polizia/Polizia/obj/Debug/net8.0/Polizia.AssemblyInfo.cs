@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Polizia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d3361ef743a71340f714a3d866b0ff5113f105")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f25e3d0995173c460b5ee6b45578824499ea3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Polizia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Polizia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

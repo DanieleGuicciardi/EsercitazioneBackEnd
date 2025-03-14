@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\views\\anagrafica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\views\\anagrafica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\controllers\\anagraficacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\controllers\\anagraficacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\controllers\\verbalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\controllers\\verbalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|c:\\users\\saas\\desktop\\esercitazionebackend\\polizia\\polizia\\views\\verbale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC3AA307-043E-4534-B432-684B41FC1DDD}|Polizia\\Polizia.csproj|solutionrelative:polizia\\views\\verbale\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Anagrafica\\Create.cshtml",
-              "RelativeDocumentMoniker": "Polizia\\Views\\Anagrafica\\Create.cshtml",
-              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Anagrafica\\Create.cshtml",
-              "RelativeToolTip": "Polizia\\Views\\Anagrafica\\Create.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T14:38:26.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VerbaleController.cs",
-              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\VerbaleController.cs",
-              "RelativeDocumentMoniker": "Polizia\\Controllers\\VerbaleController.cs",
-              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\VerbaleController.cs",
-              "RelativeToolTip": "Polizia\\Controllers\\VerbaleController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T14:36:12.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnagraficaController.cs",
-              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\AnagraficaController.cs",
-              "RelativeDocumentMoniker": "Polizia\\Controllers\\AnagraficaController.cs",
-              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\AnagraficaController.cs",
-              "RelativeToolTip": "Polizia\\Controllers\\AnagraficaController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T14:36:06.311Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Polizia\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Polizia\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T21:26:59.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Polizia\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Polizia\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T14:35:09.226Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Verbale\\Create.cshtml",
+              "RelativeDocumentMoniker": "Polizia\\Views\\Verbale\\Create.cshtml",
+              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Views\\Verbale\\Create.cshtml",
+              "RelativeToolTip": "Polizia\\Views\\Verbale\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T21:26:42.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\appsettings.json",
-              "RelativeDocumentMoniker": "Polizia\\appsettings.json",
-              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\appsettings.json",
-              "RelativeToolTip": "Polizia\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T14:14:59.943Z",
+              "DocumentIndex": 0,
+              "Title": "VerbaleController.cs",
+              "DocumentMoniker": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\VerbaleController.cs",
+              "RelativeDocumentMoniker": "Polizia\\Controllers\\VerbaleController.cs",
+              "ToolTip": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Controllers\\VerbaleController.cs*",
+              "RelativeToolTip": "Polizia\\Controllers\\VerbaleController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T21:24:32.973Z",
               "EditorCaption": ""
             }
           ]

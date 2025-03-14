@@ -44,12 +44,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Report/TotalePuntiDecurtati.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFRvdGFsZVB1bnRpRGVjdXJ0YXRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Report/TotaleVerbaliPerTrasgressore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFRvdGFsZVZlcmJhbGlQZXJUcmFzZ3Jlc3NvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Report/ViolazioniCostose.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFZpb2xhemlvbmlDb3N0b3NlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Report/ViolazioniGravi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFZpb2xhemlvbmlHcmF2aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/Verbale/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyYmFsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/saas/Desktop/EsercitazioneBackEnd/Polizia/Polizia/Views/_ViewImports.cshtml]

@@ -1,0 +1,47 @@
+﻿@model Verbale
+
+<h2>Compila Verbale</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Trasgressore</label>
+        <select asp-for="IdAnagrafica" asp-items="ViewBag.Anagrafiche" class="form-control">
+            <option value="">Seleziona Trasgressore</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Violazione</label>
+        <select asp-for="IdViolazione" asp-items="ViewBag.TipiViolazione" class="form-control">
+            <option value="">Seleziona Violazione</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Data Violazione</label>
+        <input type="date" asp-for="DataViolazione" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Indirizzo Violazione</label>
+        <input type="text" asp-for="IndirizzoViolazione" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Agente Verbalizzante</label>
+        <input type="text" asp-for="Nominativo_Agente" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Importo Multa (€)</label>
+        <input type="number" asp-for="Importo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Punti Decurtati</label>
+        <input type="number" asp-for="DecurtamentoPunti" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Salva Verbale</button>
+    <a asp-action="Index" class="btn btn-secondary">Annulla</a>
+</form>

@@ -6,7 +6,7 @@ public class AppDbContext : DbContext
 
     public DbSet<Anagrafica> Anagrafica { get; set; }
     public DbSet<TipoViolazione> TipiViolazione { get; set; }
-    public DbSet<Verbale> Verbali { get; set; }
+    public DbSet<Verbale> Verbale { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

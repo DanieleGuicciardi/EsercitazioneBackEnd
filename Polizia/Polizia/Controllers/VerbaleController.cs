@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,23 +13,15 @@ public class VerbaleController : Controller
         _context = context;
     }
 
-    public async Task<IActionResult> Index()
-    {
-        var verbali = _context.Verbali
-            .Include(v => v.Anagrafica)
-            .Include(v => v.TipoViolazione)
-            .ToListAsync();
-
-        return View(await verbali);
-    }
-
     public IActionResult Create()
     {
-        ViewBag.Anagrafiche = _context.Anagrafica.ToList();
-        ViewBag.TipiViolazione = _context.TipiViolazione.ToList();
+        ViewBag.Anagrafiche = new SelectList(_context.Anagrafica, "IdAnagrafica", "Cognome");
+        ViewBag.TipoViolazione = new SelectList(_context.TipiViolazione, "IdViolazione", "Descrizione");
+
         return View();
     }
 
+    // Metodo per salvare il verbale nel database
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Verbale verbale)
@@ -39,6 +32,21 @@ public class VerbaleController : Controller
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        // Se ci sono errori, ricarica le liste a tendina
+        ViewBag.Anagrafiche = new SelectList(_context.Anagrafica, "IdAnagrafica", "Cognome", verbale.IdAnagrafica);
+        ViewBag.TipoViolazione = new SelectList(_context.TipiViolazione, "IdViolazione", "Descrizione", verbale.IdViolazione);
+
         return View(verbale);
+    }
+
+    public async Task<IActionResult> Index()
+    {
+        var verbali = _context.Verbale
+            .Include(v => v.Anagrafica)
+            .Include(v => v.TipoViolazione)
+            .ToListAsync();
+
+        return View(await verbali);
     }
 }
