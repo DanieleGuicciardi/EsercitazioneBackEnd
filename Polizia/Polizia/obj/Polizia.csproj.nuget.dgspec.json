@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSCode\\Programmi\\progetti settimanali\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj": {}
+    "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj": {}
   },
   "projects": {
-    "D:\\VSCode\\Programmi\\progetti settimanali\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj": {
+    "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSCode\\Programmi\\progetti settimanali\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj",
+        "projectUniqueName": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj",
         "projectName": "Polizia",
-        "projectPath": "D:\\VSCode\\Programmi\\progetti settimanali\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj",
+        "projectPath": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\Polizia.csproj",
         "packagesPath": "C:\\Users\\saas\\.nuget\\packages\\",
-        "outputPath": "D:\\VSCode\\Programmi\\progetti settimanali\\EsercitazioneBackEnd\\Polizia\\Polizia\\obj\\",
+        "outputPath": "C:\\Users\\saas\\Desktop\\EsercitazioneBackEnd\\Polizia\\Polizia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Anagrafica>
+
+<h2>Elenco Anagrafiche</h2>
+<a asp-action="Create" class="btn btn-primary">Aggiungi Trasgressore</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cognome</th>
+            <th>Nome</th>
+            <th>Indirizzo</th>
+            <th>Città</th>
+            <th>Codice Fiscale</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Cognome</td>
+                <td>@item.Nome</td>
+                <td>@item.Indirizzo</td>
+                <td>@item.Citta</td>
+                <td>@item.Cod_Fisc</td>
+            </tr>
+        }
+    </tbody>
+</table>
