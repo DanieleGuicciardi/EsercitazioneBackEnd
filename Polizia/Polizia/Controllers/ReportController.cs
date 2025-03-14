@@ -11,14 +11,11 @@ public class ReportController : Controller
     {
         _context = context;
     }
-
-    // Pagina principale con i link ai report
     public IActionResult Index()
     {
         return View();
     }
 
-    // 1️⃣ Totale verbali per trasgressore
     public async Task<IActionResult> TotaleVerbaliPerTrasgressore()
     {
         var data = await _context.Verbale
@@ -33,7 +30,6 @@ public class ReportController : Controller
         return View(data);
     }
 
-    // 2️⃣ Totale punti decurtati per trasgressore
     public async Task<IActionResult> TotalePuntiDecurtati()
     {
         var data = await _context.Verbale
@@ -48,7 +44,6 @@ public class ReportController : Controller
         return View(data);
     }
 
-    // 3️⃣ Violazioni con più di 10 punti decurtati
     public async Task<IActionResult> ViolazioniGravi()
     {
         var data = await _context.Verbale
@@ -66,7 +61,6 @@ public class ReportController : Controller
         return View(data);
     }
 
-    // 4️⃣ Violazioni con importo maggiore di 400€
     public async Task<IActionResult> ViolazioniCostose()
     {
         var data = await _context.Verbale

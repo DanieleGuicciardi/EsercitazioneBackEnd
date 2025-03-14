@@ -1,9 +1,52 @@
-﻿<h2>Report e Statistiche</h2>
+﻿@{
+    ViewData["Title"] = "Report e Statistiche";
+}
 
-<ul>
-    <li><a asp-controller="Report" asp-action="TotaleVerbaliPerTrasgressore">Totale verbali per trasgressore</a></li>
-    <li><a asp-controller="Report" asp-action="TotalePuntiDecurtati">Totale punti decurtati per trasgressore</a></li>
-    <li><a asp-controller="Report" asp-action="ViolazioniGravi">Violazioni con più di 10 punti decurtati</a></li>
-    <li><a asp-controller="Report" asp-action="ViolazioniCostose">Violazioni con importo maggiore di 400€</a></li>
-</ul>
+<div class="container mt-4">
+    <h1 class="text-center fw-bold">📊 Report e Statistiche</h1>
+    <p class="text-center text-secondary">
+        Consulta i dati dettagliati sulle violazioni registrate.
+    </p>
 
+    <div class="row mt-4">
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-primary">📑 Totale Verbali per Trasgressore</h5>
+                    <p class="card-text">Numero totale di verbali registrati per ciascun trasgressore.</p>
+                    <a asp-controller="Report" asp-action="TotaleVerbaliPerTrasgressore" class="btn btn-primary">Visualizza</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-danger">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-danger">⚠️ Punti Decurtati per Trasgressore</h5>
+                    <p class="card-text">Visualizza quanti punti sono stati decurtati per ogni trasgressore.</p>
+                    <a asp-controller="Report" asp-action="TotalePuntiDecurtati" class="btn btn-danger">Visualizza</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-warning">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-warning">🚨 Violazioni Gravi (+10 Punti)</h5>
+                    <p class="card-text">Lista delle violazioni che hanno superato i 10 punti di decurtazione.</p>
+                    <a asp-controller="Report" asp-action="ViolazioniGravi" class="btn btn-warning text-dark">Visualizza</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-lg border-success">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-success">💰 Violazioni Costose (+400€)</h5>
+                    <p class="card-text">Visualizza le violazioni con importi superiori a 400€.</p>
+                    <a asp-controller="Report" asp-action="ViolazioniCostose" class="btn btn-success">Visualizza</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

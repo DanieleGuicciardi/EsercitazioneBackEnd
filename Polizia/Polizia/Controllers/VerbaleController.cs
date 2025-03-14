@@ -21,7 +21,6 @@ public class VerbaleController : Controller
         return View();
     }
 
-    // Metodo per salvare il verbale nel database
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Verbale verbale)
@@ -33,7 +32,6 @@ public class VerbaleController : Controller
             return RedirectToAction(nameof(Index));
         }
 
-        // Se ci sono errori, ricarica le liste a tendina
         ViewBag.Anagrafiche = new SelectList(_context.Anagrafica, "IdAnagrafica", "Cognome", verbale.IdAnagrafica);
         ViewBag.TipoViolazione = new SelectList(_context.TipiViolazione, "IdViolazione", "Descrizione", verbale.IdViolazione);
 

@@ -10,7 +10,6 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configura le relazioni
         modelBuilder.Entity<Verbale>()
             .HasOne(v => v.Anagrafica)
             .WithMany(a => a.Verbali)

@@ -2,11 +2,51 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <a asp-controller="Anagrafica" asp-action="Index" class="btn btn-primary">Vai alla gestione Anagrafica</a>
-    <a asp-controller="Report" asp-action="Index" class="btn btn-info">Vai ai Report</a>
-    <a asp-controller="Verbale" asp-action="Create" class="btn btn-primary">Compila un Nuovo Verbale</a>
+<div class="container text-center mt-5">
+    <h1 class="mb-4 fw-bold text-dark">🚔 Benvenuto nel Sistema di Polizia Municipale</h1>
+    <p class="lead text-secondary">
+        Gestisci anagrafiche, verbali, violazioni e report in modo efficiente.
+    </p>
 
+    <div class="row mt-4">
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">👤 Anagrafiche</h5>
+                    <p class="card-text">Gestisci i trasgressori registrati.</p>
+                    <a asp-controller="Anagrafica" asp-action="Index" class="btn btn-primary">Vai alla gestione</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📝 Compila un Verbale</h5>
+                    <p class="card-text">Registra una nuova infrazione.</p>
+                    <a asp-controller="Verbale" asp-action="Create" class="btn btn-danger">Compila ora</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4 mb-3">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">⚠️ Tipi di Violazione</h5>
+                    <p class="card-text">Aggiungi e modifica le violazioni.</p>
+                    <a asp-controller="TipoViolazione" asp-action="Index" class="btn btn-warning text-dark">Gestisci violazioni</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-3">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📊 Report</h5>
+                    <p class="card-text">Visualizza statistiche dettagliate.</p>
+                    <a asp-controller="Report" asp-action="Index" class="btn btn-info">Vai ai Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
